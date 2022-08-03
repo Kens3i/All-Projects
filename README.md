@@ -11,7 +11,7 @@ This Portfolio is a compilation of all the projects I have done for academic, se
 <br>
 Selenium is an extremely powerful tool used for  web data scraping however, it has some flaws that is fair because it was produced mainly to test web applications. On the other hand, BeautifulSoup was developed produced for data scraping and it is extremely powerful indeed. However, even BeautifulSoup has its faults, it won’t be beneficial if the required data is behind the “wall”, as it needs user’s login for accessing the data or needs some actions from users. That’s where we can utilize Selenium, for automating user interactions through the website as well as we would use BeautifulSoup for scraping data.
 
-I would be using BeautifulSoup and Selenium to extract producr information like name, ratings, etc. from https://www.amazon.in/.
+I would be using BeautifulSoup and Selenium to extract product information like name, ratings, etc. from https://www.amazon.in/.
 
 Link: [Click Here](https://github.com/Kens3i/Amazon-Multipage-Scrapper-using-Selenium-and-Beautiful-Soup)
 
