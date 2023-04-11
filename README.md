@@ -1,9 +1,22 @@
+
 # Project Portfolio
 
 This Portfolio is a compilation of all the projects I have done for academic, self-learning and hobby purposes.
 
 
 ## Projects
+
+**[E-Commerce Dashboard with Tableau](https://github.com/Kens3i/TableauEcommerceDataAnalysis)**
+<br>
+![](https://github.com/Kens3i/TableauEcommerceDataAnalysis/blob/main/Images/Tableau%20Dashboard.png?raw=true)
+<br>
+Analyzed an e-commerce database where there has **approx. 5000 columns** using **Tableau Public**. The data is about a website named "GoShopping" and the data contains the information about the incoming traffic by the different users. **Any relevant data added will be updated in the dashboard automatically upon refresh**.
+
+Link: [Click Here](https://github.com/Kens3i/TableauEcommerceDataAnalysis)
+
+<br>
+<br>
+
 
 **[Amazon Multipage Scrapper](https://github.com/Kens3i/Amazon-Multipage-Scrapper-using-Selenium-and-Beautiful-Soup)**
 <br>
