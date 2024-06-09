@@ -6,6 +6,26 @@ This Portfolio is a compilation of all the projects I have done for academic, se
 
 ## Projects
 
+**[Banking Database Management System 💳](https://github.com/Kens3i/Banking-Database-Management-System)**
+<br>
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2sybnZteXBpZHNvNGhhNmd3NWt0ZG5sYjlrZWNwajdsa3F4dXk1aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Mzzes97FZRgbq4JhZW/giphy.webp)<br>
+
+This project demonstrates a comprehensive approach to designing and implementing a banking-related database system in MS SQL Server. The system includes:
+
+- Database schema design
+- Table creation
+- Data insertion
+- Function and stored procedure creation
+- Indexes and views
+- Transaction and trigger implementation
+- Security considerations
+
+Link: [Click Here](https://github.com/Kens3i/Banking-Database-Management-System)
+
+<br>
+<br>
+
+
 **[E-Commerce Dashboard with Tableau](https://github.com/Kens3i/TableauEcommerceDataAnalysis)**
 <br>
 ![](https://github.com/Kens3i/TableauEcommerceDataAnalysis/blob/main/Images/Tableau%20Dashboard.png?raw=true)
