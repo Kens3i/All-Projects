@@ -8,7 +8,7 @@ This Portfolio is a compilation of all the projects I have done for academic, se
 
 **[Banking Database Management System 💳](https://github.com/Kens3i/Banking-Database-Management-System)**
 <br>
-![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2sybnZteXBpZHNvNGhhNmd3NWt0ZG5sYjlrZWNwajdsa3F4dXk1aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Mzzes97FZRgbq4JhZW/giphy.webp)<br>
+![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGo1ZHF2N2xzM3loemR0bGFuejc0emNpNjA0Mjl6eXRyYTZpOG1veCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZnsPA65suj7Dtfpd3a/giphy.gif)<br>
 
 This project demonstrates a comprehensive approach to designing and implementing a banking-related database system in MS SQL Server. The system includes:
 
