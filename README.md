@@ -6,6 +6,20 @@ This Portfolio is a compilation of all the projects I have done for academic, se
 
 ## Projects
 
+**[End to End Azure Data Engineering Project ](https://github.com/Kens3i/E-Com_Azure_Data_Eng_Proj/tree/main)**
+<br>
+![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGJzYzJsM2pxZGR4eGx1ZXJuMnRpOGZ2azRpOXFzb3k3bm03aHAwMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xig23UttwwCSJCa2Lh/giphy.gif)<br>
+
+
+In this project I implemented a **medallion (lakehouse) architecture** on Azure to ingest and refine data from multiple sources. In brief, the **Bronze** layer stores raw ingested data from multiple sources, the **Silver** layer holds cleaned and enriched data, and the **Gold** layer contains fully transformed, business-ready datasets. I structured the pipeline so that data flows progressively from Bronze → Silver → Gold, improving quality and consistency at each stage. This approach is recommended by Databricks/Azure for reliable enterprise data products. The schematic below (placeholder for architecture diagram) illustrates how I configured the flow:
+
+![Architecture Overview.jpg](https://github.com/Kens3i/E-Com_Azure_Data_Eng_Proj/blob/main/Images/Architecture%20Overview.jpg?raw=true) _High-level medallion (Bronze/Silver/Gold) architecture with Azure Data Factory (ingestion), Databricks (processing), and Synapse (serving)._
+
+Link: [Click Here](https://github.com/Kens3i/E-Com_Azure_Data_Eng_Proj/tree/main)
+
+<br>
+<br>
+
 **[Banking Database Management System 💳](https://github.com/Kens3i/Banking-Database-Management-System)**
 <br>
 ![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGo1ZHF2N2xzM3loemR0bGFuejc0emNpNjA0Mjl6eXRyYTZpOG1veCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZnsPA65suj7Dtfpd3a/giphy.gif)<br>
