@@ -6,9 +6,25 @@ This Portfolio is a compilation of all the projects I have done for academic, se
 
 ## Projects
 
+
+**[End-to-End Real-Time Weather Data Streaming 🌦️ ](https://github.com/Kens3i/Weather-Streaming-Data-Engineering-Project)**
+<br>
+![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbG43bXIwOWxseDRqN3d4Y253dnZ0enJ1ZGwxemVneGwzOXVpbW1xbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RRl5VP2IaeInK6OQYc/giphy.gif)<br>
+
+
+This project implements a **fully automated, real-time weather data streaming pipeline** on Azure. A public Weather API (polled every few seconds) feeds JSON weather data into Azure Event Hubs. Two ingestion methods are used and compared against an Azure Databricks notebook (Spark polling) and an Azure Functions timer trigger (serverless polling). Both push messages into the same Event Hub for comparison of cost/latency. From there, Microsoft Fabric runs an **Event Stream pipeline** that continuously harvests incoming events and writes them into an Azure Data Explorer (Kusto) database – a time-series-optimized store for fast analytics. A Power BI dashboard then connects live to this database (with auto-refresh) to provide an up-to-the-second visualization of metrics (temperature, air quality, etc.). Threshold-based alerts (e.g. for high wind or very high AQI) are handled via Fabric’s Data Activator to send an alert to your email whenever there are any emergency situations. All sensitive credentials (API keys, connection strings) are stored securely in Azure Key Vault.
+
+![Architecture Overview.jpg](https://github.com/Kens3i/Weather-Streaming-Data-Engineering-Project/blob/main/Images/Weather%20API%20Data%20Engineering.png?raw=true) _Architecture Diagram._
+
+
+Link: [Click Here](https://github.com/Kens3i/Weather-Streaming-Data-Engineering-Project)
+
+<br>
+<br>
+
 **[End to End Azure Data Engineering Project ](https://github.com/Kens3i/E-Com_Azure_Data_Eng_Proj/tree/main)**
 <br>
-![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGJzYzJsM2pxZGR4eGx1ZXJuMnRpOGZ2azRpOXFzb3k3bm03aHAwMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xig23UttwwCSJCa2Lh/giphy.gif)<br>
+![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExem1zbHlpcWQ1bWhzc2Jkd2owbmpuNWl0cTlteW0xY2RpempxOGY2ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2sbLlG7XNuzzeVKvw0/giphy.gif)<br>
 
 
 In this project I implemented a **medallion (lakehouse) architecture** on Azure to ingest and refine data from multiple sources. In brief, the **Bronze** layer stores raw ingested data from multiple sources, the **Silver** layer holds cleaned and enriched data, and the **Gold** layer contains fully transformed, business-ready datasets. I structured the pipeline so that data flows progressively from Bronze → Silver → Gold, improving quality and consistency at each stage. This approach is recommended by Databricks/Azure for reliable enterprise data products. The schematic below (placeholder for architecture diagram) illustrates how I configured the flow:
