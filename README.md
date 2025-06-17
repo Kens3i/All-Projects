@@ -50,6 +50,9 @@ This project demonstrates a comprehensive approach to designing and implementing
 - Transaction and trigger implementation
 - Security considerations
 
+![](https://github.com/Kens3i/Banking-Database-Management-System/blob/main/SS/Banking%20DB.png?raw=true)
+_Schema Diagram._
+
 Link: [Click Here](https://github.com/Kens3i/Banking-Database-Management-System)
 
 <br>
